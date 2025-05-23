@@ -82,7 +82,7 @@ public class Main {
                 if (authenticateUser(username, password)) {
                     frame.dispose();
                     SessionManager.login();
-                    System.out.print("new Frame_2();");
+                    new Frame_2();
                     JOptionPane.showMessageDialog(null, "Welcome to Gym Management System", "Message", JOptionPane.INFORMATION_MESSAGE);
                 } else {
                     JOptionPane.showMessageDialog(frame, "Try Again", "Message", JOptionPane.INFORMATION_MESSAGE);

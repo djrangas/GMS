@@ -1,4 +1,9 @@
 # GMS
+
+```shell
+sudo javac -cp ".:/Users/djrangas/Downloads/javacv-platform-1.5.10-bin/*:/Users/djrangas/Downloads/core-3.5.3.jar:/Users/djrangas/Downloads/javase-3.5.3.jar:/Users/djrangas/Downloads/mysql-connector-j-9.2.0/*:/Users/djrangas/Downloads/jcalendar-1.4.jar" Main.java
+sudo java -cp ".:/Users/djrangas/Downloads/javacv-platform-1.5.10-bin/*:/Users/djrangas/Downloads/core-3.5.3.jar:/Users/djrangas/Downloads/javase-3.5.3.jar:/Users/djrangas/Downloads/mysql-connector-j-9.2.0/*:/Users/djrangas/Downloads/jcalendar-1.4.jar" Main
+```
 ```sql
 CREATE DATABASE gym_db;
 
